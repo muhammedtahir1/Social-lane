@@ -1,0 +1,92 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main .box {
+  width: 400px;
+  height: 440px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid rgba(0, 0, 0, 0.9) 0.5px;
+  border-radius: 20px;
+}
+
+/* Profile part -> profile-pic, username */
+
+.profile-part {
+  height: 15%;
+  border-bottom: solid rgba(0, 0, 0, 0.9) 0.5px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Post -> bio and Pic */
+
+.post-part {
+  height: 60%;
+  border-bottom: solid rgba(0, 0, 0, 0.9) 0.5px;
+}
+
+.post-bio {
+  height: 20%;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.post-img {
+  height: 80%;
+  border: solid goldenrod 2px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+/* Socials part / Bottom part */
+
+.socials-part {
+  height: 25%;
+  padding: 10px;
+}
+
+.likes {
+  height: 30%;
+  font-weight: 200;
+}
+
+.social-buttons {
+  height: 70%;
+  padding-top: 5px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(238, 238, 238);
+  border-radius: 6px;
+}

@@ -1,0 +1,29 @@
+/* NAV */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #051EF5;
+}
+
+nav span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+header img {
+  width: 30px;
+  display: inline-block;
+}
+
+
+.logo__container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+/* NAV END*/
